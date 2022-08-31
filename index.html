@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avone</title>
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg-xml" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">Avone<span>.</span></a>
+
+      <ul class="icon" id="text">
+        <li>
+          <a href="#home">
+            <span class="iconify" data-icon="clarity:home-line"></span>HOME
+          </a>
+        </li>
+        <li>
+          <a href="#deal">
+            <span
+              class="iconify"
+              data-icon="ant-design:shopping-outlined"
+            ></span>
+            SHOP
+          </a>
+        </li>
+        <li>
+          <a href="#featured">
+            <span
+              class="iconify"
+              data-icon="mdi:feature-search-outline"
+            ></span>
+            FEATURES
+          </a>
+        </li>
+        <li>
+          <a href="#blog">
+            <span class="iconify" data-icon="system-uicons:pages"></span>
+            PAGES
+          </a>
+        </li>
+        
+        <li>
+          <a href="#login">
+            <span class="iconify" data-icon="ic:outline-login"></span> LOGIN
+          </a>
+        </li>
+      </ul>
+
+      <div class="icons">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- navbar section starts  -->
+
+    <nav class="navbar">
+      <div class="user">
+        <img src="images/gal5_750x.jpg" alt="" />
+        <h3>Welcome User</h3>
+      </div>
+
+      <div class="links">
+        <a href="#home">home</a>
+        <a href="#products">featured-products</a>
+        <a href="#featured">wishlist</a>
+        <a href="#deal">shop</a>
+        <a href="#review">review</a>
+        <a href="#blog">Blog</a>
+        <a href="#login">login</a>
+        <a href="#register">register now</a>
+      </div>
+
+      <div id="close" class="fas fa-times"></div>
+    </nav>
+    <!-- navbar section end -->
+
+    <!-- home section starts  -->
+
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-banner">
+          <figure class="hero-banner-left">
+            <img src="images/1 Page1.jpg" alt="hero left banner" />
+            <span class="left">
+              <a href="#" class="left-text">
+                <h3>stylish and handmade</h3>
+                <h4>new collection 2022</h4>
+              </a>
+            </span>
+          </figure>
+          <figure class="hero-banner-right">
+            <img src="images/2 Page1.jpg" alt="hero right banner" />
+            <span>
+              <a href="#" class="right-text">
+                <h3>authentic and elegant design</h3>
+                <h4>High standard design quality</h4>
+              </a>
+            </span>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- home section ends  -->
+
+    <!-- responsive-gallery section starts  -->
+    <section class="responsive-gallery" id="products">
+      <div class="container">
+        <div class="gallery">
+          <figure class="gallery__item gallery__item--1">
+            <img
+              src="images/cl1.jpg"
+              class="gallery__img"
+              alt="gallery Image 1"
+            />
+
+            <span class="kitchenware">
+              <a href="#">kitchenware</a>
+            </span>
+          </figure>
+          <figure class="gallery__item gallery__item--2">
+            <img
+              src="images/cl2 Cream Vase.jpg"
+              class="gallery__img"
+              alt="Gallery Image 2"
+            />
+            <span class="pots">
+              <a href="#">pots</a>
+            </span>
+          </figure>
+
+          <figure class="gallery__item gallery__item--3">
+            <img
+              src="images/cl3.jpg"
+              class="gallery__img"
+              alt="Gallery Image 3"
+            />
+            <span class="plates">
+              <a href="#">plates</a>
+            </span>
+          </figure>
+          <figure class="gallery__item gallery__item--4">
+            <img src="images/decor.jpg" class="gallery__img" alt="Image 6" />
+            <span class="decor">
+              <a href="#">decor</a>
+            </span>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- responsive-gallery section ends  -->
+
+    <!-- portfolio section starts  -->
+    <section class="portfolio" id="featured">
+      <div class="heading">
+        <h2>portfolio</h2>
+        <p>See our gallery of beautiful, custom pottery.</p>
+      </div>
+      <div class="container">
+        <div class="portfolio-gallery">
+          <figure class="portfolio-gallery__item portfolio__item--1">
+            <img
+              src="images/gal5_750x.jpg"
+              class="gallery__img"
+              alt="portfolio-gallery Image 1"
+            />
+            <span class="layer-1-svg">
+              <a href="#"></a>
+              <img src="css/bx-fullscreen.svg" alt="image expand svg"
+            /></span>
+            <span class="layer-1">
+              <a href="#">Handle with care</a>
+            </span>
+          </figure>
+
+          <figure class="portfolio-gallery__item portfolio__item--2">
+            <img
+              src="images/1 Bathroom Perf_750x.jpg"
+              class="gallery__img"
+              alt="portfolio-Gallery Image 2"
+            />
+            <span class="layer-2-svg">
+              <a href="#"></a>
+              <img src="css/bx-fullscreen.svg" alt="image expand svg"
+            /></span>
+            <span class="layer-2">
+              <a href="#"
+                ><p>
+                  Every pot that is crafted <br />
+                  required hands to be spoilt
+                </p></a
+              >
+            </span>
+          </figure>
+          <figure class="portfolio-gallery__item portfolio__item--3">
+            <img
+              src="images/dish_500x.jpg"
+              class="gallery__img"
+              alt="portfolio-Gallery Image 3"
+            />
+            <span class="layer-3-svg">
+              <a href="#"></a>
+              <img src="css/bx-fullscreen.svg" alt="image expand svg"
+            /></span>
+            <span class="layer-3"><a href="#">view collections</a> </span>
+          </figure>
+          <figure class="portfolio-gallery__item portfolio__item--4">
+            <img
+              src="images/2 Brown Wheat_750x.jpg"
+              class="gallery__img"
+              alt="portfolio-Image 4"
+            />
+            <span class="layer-4-svg">
+              <a href="#"></a>
+              <img src="css/bx-fullscreen.svg" alt="image expand svg"
+            /></span>
+            <span class="layer-4"
+              ><a href="#">
+                <h3>HANDMADE TO LOVE</h3>
+                <p>Feel it, Feel the Uniqueness</p></a
+              >
+            </span>
+          </figure>
+          <figure class="portfolio-gallery__item portfolio__item--5">
+            <img
+              src="images/gal6_750x.jpg"
+              class="gallery__img"
+              alt="portfolio-gallery Image 5"
+            />
+            <span class="layer-5">
+              <a href="#"></a>
+              <img src="css/bx-fullscreen.svg" alt="image expand svg"
+            /></span>
+          </figure>
+          <figure class="portfolio-gallery__item portfolio__item--6">
+            <img
+              src="images/bottle.jpg"
+              class="gallery__img"
+              alt="portfolio-Gallery Image 6"
+            />
+            <span class="layer-6">
+              <a href="#"></a>
+              <img src="css/bx-fullscreen.svg" alt="image expand svg"
+            /></span>
+          </figure>
+          <figure class="portfolio-gallery__item portfolio__item--7">
+            <img
+              src="images/gal7_750x.jpg"
+              class="gallery__img"
+              alt="portfolio-Gallery Image 7"
+            />
+            <span class="layer-7">
+              <a href="#"></a>
+              <img src="css/bx-fullscreen.svg" alt="image expand svg"
+            /></span>
+          </figure>
+          <figure class="portfolio-gallery__item portfolio__item--8">
+            <img
+              src="images/gal3_750x.jpg"
+              class="gallery__img"
+              alt="portfolio-Image 8"
+            />
+            <span class="layer-8">
+              <a href="#"></a>
+              <img src="css/bx-fullscreen.svg" alt="image expand svg"
+            /></span>
+          </figure>
+          <figure class="portfolio-gallery__item portfolio__item--9">
+            <img
+              src="images/gal8_750x.jpg"
+              class="gallery__img"
+              alt="portfolio-Gallery Image 9"
+            />
+            <span class="layer-9">
+              <a href="#"></a>
+              <img src="css/bx-fullscreen.svg" alt="image expand svg"
+            /></span>
+          </figure>
+          <figure class="portfolio-gallery__item portfolio__item--10">
+            <img
+              src="images/Green Set_750x.jpg"
+              class="gallery__img"
+              alt="portfolio-Gallery Image 10"
+            />
+            <span class="layer-10">
+              <a href="#"></a>
+              <img src="css/bx-fullscreen.svg" alt="image expand svg"
+            /></span>
+          </figure>
+          <figure class="portfolio-gallery__item portfolio__item--11">
+            <img
+              src="images/Brown spots Ceramic_750x.jpg"
+              class="gallery__img"
+              alt="portfolio-Image 11"
+            />
+            <span class="layer-11">
+              <a href="#"></a>
+              <img src="css/bx-fullscreen.svg" alt="image expand svg"
+            /></span>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends  -->
+
+    <!-- pottery class section starts  -->
+
+    <section class="pottery-class" id="deal">
+      <div class="heading">
+        <h2>POTTERY CLASS</h2>
+        <p>
+          Would you like to learn to make pottery?
+          <span>Our classes will help you quickly master the basics.</span>
+        </p>
+      </div>
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="images/11.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>pot production</h3>
+              <div class="price">
+                <div class="amount">$20.00</div>
+                <div class="cut">$40.00</div>
+                <div class="offer">50% off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">Enrol now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="images/12.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>cup production</h3>
+              <div class="price">
+                <div class="amount">$20.00</div>
+                <div class="cut">$40.00</div>
+                <div class="offer">50% off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">Enrol now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="images/13.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>flower vase production</h3>
+              <div class="price">
+                <div class="amount">$20.00</div>
+                <div class="cut">$40.00</div>
+                <div class="offer">50% off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">Enrol now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="images/11.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>pot production</h3>
+              <div class="price">
+                <div class="amount">$20.00</div>
+                <div class="cut">$40.00</div>
+                <div class="offer">50% off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">Enrol now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="images/12.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>cup production</h3>
+              <div class="price">
+                <div class="amount">$20.00</div>
+                <div class="cut">$40.00</div>
+                <div class="offer">50% off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">Enrol now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="images/13.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>flower vase production</h3>
+              <div class="price">
+                <div class="amount">$20.00</div>
+                <div class="cut">$40.00</div>
+                <div class="offer">50% off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <a href="#" class="btn">Enrol now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+      </div>
+
+      <div class="learn-container">
+        <div class="center">
+          <a href="#" class="btn-learn">learn more</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- pottery class section ends  -->
+
+    <!-- Blog section starts -->
+
+    <section class="section blog" id="blog">
+      <div class="container">
+        <h2 class="h2 section-title">Our Blog</h2>
+        <ul class="blog-list scrollbar">
+          <li>
+            <div class="blog-card">
+              <figure class="card-banner">
+                <a href="#">
+                  <img
+                    src="images/blog-1.jpg"
+                    alt="Can you live in a world without ceramics?"
+                    loading="lazy"
+                    width="640"
+                    height="auto"
+                    class="w-100"
+                  />
+                </a>
+
+                <a href="#" class="btn-blog card-badge">Ceramics</a>
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h3 card-title">
+                  <a href="#">Can you live in a world without ceramics? See what people think</a>
+                </h3>
+                <div class="card-meta">
+                  <div class="publish-date">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="2022-08-26">April 26, 2022</time>
+                  </div>
+                  <div class="comments">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                    <data value="88">88</data>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="blog-card">
+              <figure class="card-banner">
+                <a href="#">
+                  <img
+                    src="images/blog-2.jpg"
+                    alt="Innovative technologies for developing rural pottery industry"
+                    loading="lazy"
+                    class="w-100"
+                  />
+                </a>
+
+                <a href="#" class="btn-blog card-badge">Innovation</a>
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h3 card-title">
+                  <a href="#">Innovative technologies for developing rural pottery industry</a>
+                </h3>
+                <div class="card-meta">
+                  <div class="publish-date">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="2022-08-26">April 18, 2022</time>
+                  </div>
+                  <div class="comments">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                    <data value="99">99</data>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="blog-card">
+              <figure class="card-banner">
+                <a href="#">
+                  <img
+                    src="images/blog-3.jpg"
+                    alt="What are different types of ceramic careers"
+                    loading="lazy"
+                    class="w-100"
+                  />
+                </a>
+
+                <a href="#" class="btn-blog card-badge">Careers</a>
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h3 card-title">
+                  <a href="#">What are different types of ceramic careers? Find out now!</a>
+                </h3>
+                <div class="card-meta">
+                  <div class="publish-date">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="2022-08-26">May 13, 2022</time>
+                  </div>
+                  <div class="comments">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                    <data value="310">310</data>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="blog-card">
+              <figure class="card-banner">
+                <a href="#">
+                  <img
+                    src="images/blog-4.jpg"
+                    alt="Cracking the science behind pottery?"
+                    loading="lazy"
+                    class="w-100"
+                  />
+                </a>
+
+                <a href="#" class="btn-blog card-badge">Science</a>
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h3 card-title">
+                  <a href="#">Cracking the science behind pottery with our great team</a>
+                </h3>
+                <div class="card-meta">
+                  <div class="publish-date">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="2022-08-26">june 16, 2022</time>
+                  </div>
+                  <div class="comments">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                    <data value="500">500</data>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="blog-card">
+              <figure class="card-banner">
+                <a href="#">
+                  <img
+                    src="images/blog-5.jpg"
+                    alt=">Best for handling our pottery"
+                    loading="lazy"
+                    width="640"
+                    height="auto"
+                    class="w-100"
+                  />
+                </a>
+
+                <a href="#" class="btn-blog card-badge">Company</a>
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h3 card-title">
+                  <a href="#">What are the best ways for handling our pottery for lasting use</a>
+                </h3>
+                <div class="card-meta">
+                  <div class="publish-date">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="2022-08-26">August 26, 2022</time>
+                  </div>
+                  <div class="comments">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                    <data value="1001">1k+</data>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Blog section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-link-box">
+            <ul class="footer-list">
+              <li>
+                <p class="footer-link-title">Contact us</p>
+              </li>
+              <li class="contact-item">
+      
+                <a href="#" class="contact-link">
+                  <address>1001 fannin suite 270, Houston Texas, USA</address></a
+                >
+              </li>
+              <li class="contact-item">
+                <span>Phone :</span>
+
+                <a href="tel:5463876387" class="contact-link">546 3876 387</a>
+              </li>
+              <li class="contact-item">
+                <span>Email :</span>
+
+                <a href="mailto:john.doe@gmail.com" class="contact-link"
+                  >sales.zyedesigns@gmail.com</a >
+              </li>
+
+            </ul>
+            <ul class="footer-list">
+              <li>
+                <p class="footer-link-title">Information</p>
+              </li>
+              <li>
+                <a href="#" class="footer-link">about us</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">contact us</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">career</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">my account</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">orders and returns</a>
+              </li>
+            </ul>
+            <ul class="footer-list">
+              <li>
+                <p class="footer-link-title">Help</p>
+              </li>
+              <li>
+                <a href="#" class="footer-link">help and faqs</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">returns Policy</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">terms and conditions</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">support center</a>
+              </li>
+            </ul>
+            <ul class="footer-list">
+              <li>
+                <p class="footer-link-title">follow us</p>
+              </li>
+            
+              <li><a href="#" class="footer-link"> <i class="fa-brands fa-facebook-f"></i><span class="pad">facebook</span></a></li>
+              <li><a href="#" class="footer-link"> <i class="fa-brands fa-twitter"></i><span class="pad">twitter</span></a></li>
+              <li><a href="#" class="footer-link"> <i class="fa-brands fa-pinterest-p"></i><span class="pad">Pinterest</span></a></li>
+              <li><a href="#" class="footer-link"> <i class="fa-brands fa-instagram"></i><span class="pad">instagram</span></a></li>
+              
+            </ul> 
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="payment-icons">
+          <a href="#American Express" class="payment-brands"><i class="fa-brands fa-cc-amex"></i></a> 
+          <a href="#Apple pay" class="payment-brands"><i class="fa-brands fa-apple-pay"></i></a> 
+          <a href="#Discover" class="payment-brands"><i class="fa-brands fa-cc-discover"></i></a> 
+          <a href="#Google pay" class="payment-brands"><i class="fa-brands fa-google-pay"></i></a> 
+          <a href="#MasterCard" class="payment-brands"><i class="fa-brands fa-cc-mastercard"></i></a> 
+          <a href="#Visa" class="payment-brands"><i class="fa-brands fa-cc-visa"></i></a> 
+          <a href="#Paypal" class="payment-brands"><i class="fa-brands fa-paypal"></i></a> 
+          <a href="#Amazon" class="payment-brands"><i class="fa-brands fa-cc-amazon-pay"></i></a> 
+ 
+         </div>
+        <div class="container">
+          <p class="copyright">
+            &copy; 2022 <a href="#">ZYE DESIGNS</a>. All right reserved
+          </p>
+        </div>
+
+      </div>
+    </footer>
+    </div>
+  </div>
+  </section>
+
+  <!-- footer section ends  -->
+
+  <!-- #GO TO TOP  -->
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+  <!-- custom fontawesome js link -->
+  <script src="https://kit.fontawesome.com/8477bea31f.js" crossorigin="anonymous"></script>
+    <!-- custom ionicon js link --> 
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- custom swiperjs cdn link -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- iconify cdn link -->
+
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+   <!-- custom js file link -->
+    <script src="js/script.js"></script>
+
+
+  </body>
+</html>
